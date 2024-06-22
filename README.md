@@ -1,2 +1,2 @@
 # C-programs
-list of C programs ,BE 2nd Sem
+List of C programs ,BE 2nd Sem
