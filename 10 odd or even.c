@@ -9,9 +9,22 @@ void main()
     printf("enter the number\n");
     scanf("%d",&a);
 
-    ((a%2)==0)?printf("number %d is even",a):printf("number %d is odd",a);
+    // using ternary 
 
 
+    ((a%2)==0)?printf("number %d is even \n",a):printf("number %d is odd \n",a);
+
+
+    // using if
+
+    if ((a%2)==0)
+    {
+        printf("number %d is even \n",a);
+    }
+    else{
+        printf("number %d is odd \n",a);
+    }
+    
 
     
 }
