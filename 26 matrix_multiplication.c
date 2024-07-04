@@ -43,11 +43,11 @@ void main()
    {
       for(j=0; j<q ; j++)
       {
-	 c[i][j] = 0 ;
-	 for(k=0 ; k<n ; k++)
-	 {
-	    c[i][j] = c[i][j] + a[i][k] * b[k][j] ;
-	 }
+	   c[i][j] = 0 ;
+	   for(k=0 ; k<n ; k++)
+	   {
+	      c[i][j] = c[i][j] + a[i][k] * b[k][j] ;
+	   }
       }
    }
 
@@ -57,7 +57,7 @@ void main()
    {
       for(j=0; j<n ; j++)
       {
-	 printf("%d   ", a[i][j]);
+	      printf("%d", a[i][j]);
       }
       printf("\n");
    }
@@ -67,7 +67,7 @@ void main()
    {
       for(j=0; j<q ; j++)
       {
-	 printf("%d   ", b[i][j]);
+	      printf("%d", b[i][j]);
       }
       printf("\n");
    }
@@ -77,7 +77,7 @@ void main()
    {
       for(j=0; j<q ; j++)
       {
-	 printf("%d   ", c[i][j]);
+	      printf("%d", c[i][j]);
       }
       printf("\n");
    }
