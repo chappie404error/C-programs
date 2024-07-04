@@ -7,7 +7,8 @@ int main()
   int a[20],i,j,flag,key,low,n,high,mid,temp;
   printf("\n Enter the size of the array\n");
   scanf("%d",&n);
- AGAIN: printf("\nEnter %d array elements :\n",n);
+  AGAIN:
+  printf("\nEnter %d array elements :\n",n);
   for(i=0;i<n;i++)
   {
     scanf("%d",&a[i]);
